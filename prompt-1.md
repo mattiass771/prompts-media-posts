@@ -4,7 +4,7 @@
 
 I provided it with basic instructions on how I want my website to look and what frameworks I am using.
 
-**Q**: `Hello ChatGPT, you are my helpful assistant. I am going to create a website in Nuxt 3, that will be able to generate posts for social media. I have my Nuxt project already setup, and I want you to create a Vue component that will contain an input type text for the title of the social media post, a textarea for the description of the social media post and a submit button. I want you to use tailwindcss for styling and I want my accent color to be #41B883. Add a nice light background color that suits my accent color.`
+**Q**: `Hello ChatGPT, you are my helpful assistant. I am going to create a website in Nuxt 3, that will be able to generate posts for social media. I have my Nuxt project already setup, and I want you to create a Vue component that will contain an input type text for the title of the social media post, a textarea for the description of the social media post and a submit button. I want you to use tailwindcss for styling and I want my accent color to be #41B883. Add a nice light background color that suits my accent color.`  
 
 **A**: `Hello! I'm happy to help you create a Vue component for your Nuxt 3 project. Here's a sample component code that should meet your requirements:`
 ```html
@@ -80,7 +80,8 @@ export default {
 
 ## 2nd prompt
 
-**Q**: `Transform the Vue component to Composition API with Typescript support please. Regarding styling, can you also please add some more styling, smoothening the elements, centering them in the viewport and adding some rounded edges with some box-shadow?`
+**Q**: `Transform the Vue component to Composition API with Typescript support please. Regarding styling, can you also please add some more styling, smoothening the elements, centering them in the viewport and adding some rounded edges with some box-shadow?`  
+
 **A**: `Sure! I have converted the Vue component to use Composition API and Typescript. This version of the component has a smooth, page-wide layout with elements centered horizontally. The width of the form is adjusted based on the viewport size, and the form is centered using the mx-auto utility class. I've also added a heading for the form and adjusted the form's margins for a better visual appearance. Here's the updated code:`
 ```html
 <script setup lang="ts">
