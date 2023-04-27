@@ -1,6 +1,6 @@
 # API With Openai Client Setup
 
-## 1st Prompt
+## The Prompt
 
 **Q**: `Now I want you to create an event handler in my Nuxt3 server. It has to read a message from the request body, and use it as a prompt for the ChatCompletition module of openai nodejs library and return the result as a response. I want to use the gpt-3-turbo model.`
 
